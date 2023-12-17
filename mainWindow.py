@@ -248,7 +248,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             )
             # self.data_plotY2_data.append(self.data2[0])
             self.data_plotY_data[1].append(self.data2[0])
-            str_emit = " ".join(str_emit, str(self.data2[0]))
+            str_emit = str_emit.join(str(self.data2[0]))
 
         # print("data1 data2: ", int(self.data_plotY_data))
         self.data_plotX_data.append(self.data_plotX_index)
