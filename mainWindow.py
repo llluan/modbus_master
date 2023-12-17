@@ -221,7 +221,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def singal_getOneDataCB(self, data):
         print("get data--->", data, "\n\r")
-        self.text_dataView.setPlainText("get data--->", data, "\n\r")
+        # self.text_dataView.setPlainText("get data--->", data+"\n\r")
         self.dym_plot()
 
     def pushButton_send_clickedCB(self):
